@@ -1,0 +1,7 @@
+base     adhoctables
+author   Sascha Leib
+email    sascha.leib(at)kolmio.com
+date     2023-04-14
+name     Ad-Hoc Tables Plugin
+desc     Enables HTML markup Tables (under development!)
+url      https://www.dokuwiki.org/plugin:adhocwrap
