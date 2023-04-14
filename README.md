@@ -28,4 +28,4 @@ This plugin adds the following tags to the DokuWiki syntax:
   * `[headers=…]` – IDs of table header cells that this cell is related to (space-separated list of IDs)
   * `[rowspan=…]` – number of columns the cell should span (integer: 1…1000)
 
-Note that any attribute values that don't match the specifications above will cause the attribute to be ignored.
+Note that in addition to the specific attributes, also all the general attributes from the [Ad-Hoc Tags](https://github.com/saschaleib/dokuwiki-plugin-adhocwrap)-plugin can be added. This includes: `#id`, `class`, `:lang`, and other extended attributes, like `[style=…]`.
