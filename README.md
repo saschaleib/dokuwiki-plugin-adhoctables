@@ -15,13 +15,13 @@ This plugin adds the following tags to the DokuWiki syntax:
 * `<tbody>` – [table body section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody)
 * `<tfoot>` – [table footer section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot)
 * `<tr>` – [table row](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr)
-* `<th>` – [table heading cell](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th), with optional attribute:
+* `<th>` – [table heading cell](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th), with optional attributes:
   * `[abbr=…]` – a short (“abbreviated”) alternative description of the cell (free-text)
   * `[colspan=…]` – number of columns the cell should span (integer: 1…1000)
   * `[headers=…]` – IDs of higher-level table header cells that this cell is related to (space-separated list of IDs)
   * `[rowspan=…]` – number of columns the cell should span (integer: 1…1000)
   * `[scope=…]` – which cells does the header cell refer to (either `row`, `col`, `rowgroup` or `colgroup`)
-* `<td>` – [table cell](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td), with optional attribute:
+* `<td>` – [table cell](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td), with optional attributes:
   * `[colspan=…]` – number of columns the cell should span (integer: 1…1000)
   * `[headers=…]` – IDs of table header cells that this cell is related to (space-separated list of IDs)
   * `[rowspan=…]` – number of columns the cell should span (integer: 1…1000)
