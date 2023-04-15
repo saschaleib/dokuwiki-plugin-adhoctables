@@ -13,21 +13,22 @@ class syntax_plugin_adhoctables_td extends syntax_plugin_adhoctables_tabstract {
 
 	protected $tag			= 'td';
 
+    function getPType(){ return 'block';}
+
 	/* allow link attributes: */
 	function allowAttribute(&$name, &$value) {
 		//dbg('<td>:allowAttribute(' . $name . ', "' . $value . '")');
 		
-		return in_array($name, array('scope'));
 		switch (trim($name)) {
-			case colspan:
-			case rowspan:
+			case 'colspan':
+			case 'rowspan':
 				if (is_numeric(trim($value))) {
 					$value = intval($value);
 					return ($value > 0 && $value < 100);
 				}
 				break;
 			case 'headers':
-				return (preg_match('/^#([A-Za-z]\w+,?)+/', trim($value)));
+				return (preg_match('/^([A-Za-z]\w+ ?)+/', trim($value)));
 				break;
 			default:
 				return false;
