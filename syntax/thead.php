@@ -13,4 +13,13 @@ class syntax_plugin_adhoctables_thead extends syntax_plugin_adhoctables_tabstrac
 
 	protected $tag			= 'thead';
 
+    /**
+     * ODT Renderer Functions
+     */
+    function renderODTElementOpen($renderer, $HTMLelement, $data) {
+		$renderer->tablethead_open();
+    }
+    function renderODTElementClose($renderer, $element) {
+		$renderer->tablethead_close();
+    }
 }

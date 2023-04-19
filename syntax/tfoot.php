@@ -13,4 +13,13 @@ class syntax_plugin_adhoctables_tfoot extends syntax_plugin_adhoctables_tabstrac
 
 	protected $tag			= 'tfoot';
 
+    /**
+     * ODT Renderer Functions
+     */
+    function renderODTElementOpen($renderer, $HTMLelement, $data) {
+		$renderer->tabletfoot_open();
+    }
+    function renderODTElementClose($renderer, $element) {
+		$renderer->tabletfoot_close();
+    }
 }

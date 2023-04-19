@@ -13,4 +13,13 @@ class syntax_plugin_adhoctables_table extends syntax_plugin_adhoctables_tabstrac
 
 	protected $tag = 'table';
 
+    /**
+     * ODT Renderer Functions
+     */
+    function renderODTElementOpen($renderer, $HTMLelement, $data) {
+		$renderer->table_open();
+    }
+    function renderODTElementClose($renderer, $element) {
+		$renderer->table_close();
+    }
 }

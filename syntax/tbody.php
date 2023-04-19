@@ -13,4 +13,13 @@ class syntax_plugin_adhoctables_tbody extends syntax_plugin_adhoctables_tabstrac
 
 	protected $tag			= 'tbody';
 
+    /**
+     * ODT Renderer Functions
+     */
+    function renderODTElementOpen($renderer, $HTMLelement, $data) {
+		$renderer->tabletbody_open();
+    }
+    function renderODTElementClose($renderer, $element) {
+		$renderer->tabletbody_close();
+    }
 }
