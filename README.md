@@ -1,7 +1,7 @@
 # DokuWiki Plugin *Ad-Hoc Tables*
 Add-on to Ad Hoc Tags which enables table markup within DokuWiki
 
-:bangbang: **IMPORTANT:** This plugin is an extension to the [Ad-Hoc Tags](https://github.com/saschaleib/dokuwiki-plugin-adhocwrap)-plugin. It will not work without it, and may even cause errors! :bangbang: 
+‼️ **IMPORTANT:** This plugin is an extension to the [Ad-Hoc Tags](https://github.com/saschaleib/dokuwiki-plugin-adhocwrap)-plugin. It will not work without it, and may even cause errors! ‼️
 
 This plugin adds the following tags to the DokuWiki syntax:
 
