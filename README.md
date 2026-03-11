@@ -1,7 +1,7 @@
 # DokuWiki Plugin *Ad-Hoc Tables*
 Add-on to Ad Hoc Tags which enables table markup within DokuWiki
 
-:bangbang: **IMPORTANT:** This plugin is an extension to the [Ad-Hoc Tags](https://github.com/saschaleib/dokuwiki-plugin-adhocwrap)-plugin. It will not work without it, and may even cause errors! :bangbang:
+:bangbang: **IMPORTANT:** This plugin is an extension to the [Ad-Hoc Tags](https://github.com/saschaleib/dokuwiki-plugin-adhocwrap)-plugin. It will not work without it, and may even cause errors! :bangbang: 
 
 This plugin adds the following tags to the DokuWiki syntax:
 
@@ -28,4 +28,4 @@ This plugin adds the following tags to the DokuWiki syntax:
 
 Note that in addition to the specific attributes, also all the general attributes from the [Ad-Hoc Tags](https://github.com/saschaleib/dokuwiki-plugin-adhocwrap)-plugin can be added. This includes: `#id`, `class`, `:lang`, and other extended attributes, like `[style=…]`.
 
-:information_source: Please also see the [DokuWiki page](https://github.com/saschaleib/dokuwiki-plugin-adhoctables) of this plugin.
+:information_source: Please also see the [DokuWiki page](https://github.com/saschaleib/dokuwiki-plugin-adhoctables) and the [Demo page](https://leib.be/sascha/projects/dokuwiki/ad-hoc/tables) on the author's web site for more information.
